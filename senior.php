@@ -36,6 +36,7 @@ $sql ="SELECT * FROM animals";
             <img style="width:100%; height:220px; object-fit: cover;" src=animals/pictures/'.$val["picture"].' class="card-img-top img-fluid" alt="...">
             <div class="card-body">
               <h5 class="card-title">'.$val["name"].'</h5>
+              <hr>
               <p class="card-text">Description:'.$val["description"].'<br> '.$val["location"].'</p>
               <p class="card-text">Age:'.$val["age"].'</p>
               <a href="update.php?id='.$val["id"].'" class="m-1 btn btn-success">Update</a>

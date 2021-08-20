@@ -36,6 +36,7 @@ $sql ="SELECT * FROM animals";
             <img style="width:100%; height:220px; object-fit: cover;" src=animals/pictures/'.$val["picture"].' class="card-img-top img-fluid" alt="...">
             <div class="card-body">
               <h5 class="card-title">'.$val["name"].'</h5>
+              <hr>
               <p class="card-text">'.$val["description"].'<br> '.$val["location"].'</p>
               <a href="show.php?id='.$val["id"].'" class="m-1 btn btn-warning">Show More Details</a>
               <a href="adopt.php?id='.$val["id"].'" class="m-1 btn btn-primary">Take Me Home</a>
