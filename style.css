@@ -1,0 +1,17 @@
+.bg-image {
+    background: url("https://cdn.pixabay.com/photo/2016/03/27/22/22/fox-1284512_960_720.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
+}
+
+.text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer {
+    background-color: rgb(137,110,26);
+    height: 180px;
+}
