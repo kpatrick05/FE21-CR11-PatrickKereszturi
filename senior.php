@@ -39,8 +39,6 @@ $sql ="SELECT * FROM animals";
               <hr>
               <p class="card-text">Description:'.$val["description"].'<br> '.$val["location"].'</p>
               <p class="card-text">Age:'.$val["age"].'</p>
-              <a href="update.php?id='.$val["id"].'" class="m-1 btn btn-success">Update</a>
-              <a href="delete.php?id='.$val["id"].'" class="m-1 btn btn-danger">Delete</a>
               <a href="show.php?id='.$val["id"].'" class="m-1 btn btn-warning">Show More Details</a>
               <a href="adopt.php?id='.$val["id"].'" class="m-1 btn btn-primary">Take Me Home</a>
             </div>
