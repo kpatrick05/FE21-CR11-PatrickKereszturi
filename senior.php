@@ -18,7 +18,6 @@ if (!isset($_SESSION['adm']) && !isset($_SESSION['user'])) {
 $sql ="SELECT * FROM animals";
 
     $result = mysqli_query($connect, $sql);
-
     
     $body = "";
     $nOR = mysqli_num_rows($result);
@@ -58,7 +57,7 @@ mysqli_close($connect);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Welcome - <?php echo $row['first_name']; ?></title>
+<title>Seniors Page</title>
 <?php require_once 'components/boot.php'?>
 <style>
 

@@ -55,7 +55,7 @@ if ($_GET['id']) {
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Edit Product</title>
+        <title>Edit Animal</title>
         <?php require_once '../components/boot.php'?>
         <style type= "text/css">
             fieldset {
